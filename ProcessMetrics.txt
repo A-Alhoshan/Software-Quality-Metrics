@@ -1,3 +1,5 @@
+                                            #IS THE MEASURE OF THE SOFTWARE DEVELOPMENT PROCESS OVER ALL DEVELOPMENT TIME
+
 KLOC   => kilo line of code
 NFP    => Number of function points
 
