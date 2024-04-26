@@ -36,3 +36,28 @@ DERE   => Development Errors Removal Effectiveness           DERE = NDE / NDE + 
 DWERE  => Development Weighted Errors Removal effectiveness  DWERE = WDE / WDE + WYF (WYF same as NYF but weighted)
                                      
                                         }
+
+5- Process Productivity metrics {
+DevP    => Development productivity                  Devp = DevH / KLOC
+FDevP   => Function point Development Productivity   FDevP = DevH / NFP
+CRe     => Code Reuse                                Cre = ReKLOC / KLOC
+DocRe   => Documentation Reuse                       DocRe = ReDoc / NDoc
+                                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
