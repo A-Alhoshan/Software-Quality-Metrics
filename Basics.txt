@@ -1,0 +1,1 @@
+Metric is a quantitative measure of  the degree to which a system, component or process possesses a given attribute like Number of Errors per Man Hour expanded.
