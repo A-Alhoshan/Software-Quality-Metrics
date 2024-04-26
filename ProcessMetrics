@@ -1,0 +1,36 @@
+KLOC   => kilo line of code
+NFP    => Number of function points
+
+1- Error density metrics {
+
+NCE    => Number of code errors (totally)
+WCE    => Weighted number of code errors (here we classify each error into low, medium and high because not all errors equal obviously =) )
+CED    => Code Error Density in this formula             CED = NCE / KLOC
+DED    => Development Error Density                      DED = NDE / KLOC        (here development errors are not the same as code errors they are different)
+WCED   => Weighted Code Error Density                    WCED = WCE / KLOC
+WDED   => Weighted Development Error Density             WDED = WDE / KLOC
+WCEF   => Weighted Code Errors per Function Point        WCEF = WCE / NFP
+WDEF   => Weighted Development Errors per Function Point WCEF = WDE / NFP
+
+                        }
+
+2- Error Severity metrics {
+
+ASCE   => Average Severity of Code Errors                ASCE = WCE / NCE     (here basically we calculate the average "المتوسط الحسابي")
+ASDE   => Average Severity of development Errors         ASDE = WDE / NDE     (same but on dev errors " مالعب فينا الا الديفيلوبمنت ايرورز ")
+
+                          }  
+
+3- Timetable metrics {
+
+TTO   => Time Table Observance                           TTO = MSOT / MS  (MSOT is the milestones completed on time and MS is the milestones itself) مايلستون نقصد مراحل حياة البرنامج زي جمع المتطلبات والتحليل والتصميم والبرمجة كل واحد منها ينحسب 1
+ADMC  => Average Delay of Milestones Completion          ADMC = TCDAM / MS  (TCDAM is the total completion delays يعني لو تأخرنا عن تسليم التصميم بأسبوعين وتسليم المتطلبات بأسبوع والتسليم النهائي عشر أسابيع بيطلع قيمته 13 أسبوع)
+
+                    }
+
+4- Error removal effectiveness metrics {
+
+DERE   => Development Errors Removal Effectiveness           DERE = NDE / NDE + NYF (NYF we mean failures in a year)
+DWERE  => Development Weighted Errors Removal effectiveness  DWERE = WDE / WDE + WYF (WYF same as NYF but weighted)
+                                     
+                                        }
