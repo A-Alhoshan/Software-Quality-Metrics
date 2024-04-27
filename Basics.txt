@@ -1,2 +1,3 @@
 Metric is a quantitative measure of  the degree to which a system, component or process possesses a given attribute like Number of Errors per Man Hour expanded.
-We measure 3 Main categories {Process, Project and product}
+We measure 2 Main categories {Process and product}
+We measure under this subjects {Quality Metrics, Productivity Metrics, Effectiveness Metrics, TimeTable Metrics, Corrective Metrics} 
